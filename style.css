@@ -35,7 +35,35 @@
     padding: 50px;
     max-width: 800px;
     text-align: center;
+  
  }
+#project,#about#contact-me.{
+ max-width:800px
+  margin:20px outo;
+}
+.project{
+ background-color: pink;
+ margin:20px auto;
+ padding:20px;
+ border-radius:10px;
+ box-shadow:0 4px 6px rgba(0000.1);
+ trasition:transform 0.3s ease-in-out;
+ display:flex;
+ flex-derction:column;
+ aling-item:center
+}
+.project hover{
+ trasfrom:traslate(-5px)
+}
+form{
+ disaplay:flex;
+ flex-direction:column;
+ gap:15PX;
+ max-width:400px;
+ margin;0 auto;
+section h2{
+ color:#333;
+ margin-bottom:2opx out
  footer{
    background-color: #333;
    color: #fff;
