@@ -26,6 +26,7 @@
     text-decoration: none;
     font-weight: bold;
     transition: color 0.3s ease;
+  position:relative;
  }
  nav ul li a:hover{
    color:green;
@@ -60,10 +61,25 @@ form{
  flex-direction:column;
  gap:15PX;
  max-width:400px;
- margin;0 auto;
+ margin:0 auto;
+}
+input,textarea,button{
+ width:100%
+  padding:10px;
+ font-size:1rem;
+ border:1px solid #ccc;
+ bodder-radius:5px;
+}
+button{
+ background-color:#333;
+ color:white;
+ cursor:pointer;
+ trasition:background-color o.3s
 section h2{
  color:#333;
- margin-bottom:2opx out
+ margin-bottom:20px;
+ button:hover{
+  background-color:3ff9800;
  footer{
    background-color: #333;
    color: #fff;
@@ -73,5 +89,22 @@ section h2{
    bottom: 0;
    width: 100%;
  }
-
- 
+  nav ul li a:nefore{
+   content:'';
+   position:absolute;
+   left:0; 
+   height:2px;
+   width:0;
+   background:#ff9800;
+   transition:width0.3s ease-in-out;
+  }
+  nav ul li a:hover::before{
+   width:100%;
+  }
+  @media(max-width:768px{
+   nav ul{
+    flex-direction:column;
+   }
+   project{
+    text-align:center;
+   }
