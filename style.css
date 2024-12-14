@@ -6,6 +6,7 @@
   box-sizing:border-box;
   background-color:#282C34;
   color:rgb(29,27,27);
+  font-size:18px;
  }
  header{
     background-color:pink;
@@ -21,33 +22,30 @@
     padding: 0;
  }
  nav ul li{
-    display: inline;
-    margin: 0 15px;
+    margin: 0 25px;
  }
  nav ul li a {
-    color: red;
+    color: white;
     text-decoration: none;
     font-weight: bold;
     transition: color 0.3s ease;
-  position:relative;
+  font-size:15rem;
+  padding:10px 15px;
  }
  nav ul li a:hover{
    color:green;
  }
- section{
-    margin: 20px auto;
-    padding: 50px;
-    max-width: 800px;
-    text-align: center;
-  
+ section
+padding:50px 20px;
+text-align:center;
  }
 #project,#about#contact-me.{
  max-width:800px
   margin:20px outo;
 }
 .project{
- background-color: pink;
- margin:20px auto;
+ background-color: white;
+ margin:20px;
  padding:20px;
  border-radius:10px;
  box-shadow:0 4px 6px rgba(0000.1);
@@ -56,8 +54,8 @@
  flex-derction:column;
  aling-item:center
 }
-.project hover{
- trasfrom:traslate(-5px)
+.project :hover{
+ trasfrom:traslate Y(-5px)
 }
 form{
  disaplay:flex;
