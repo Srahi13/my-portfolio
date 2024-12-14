@@ -63,9 +63,10 @@ form{
  gap:15PX;
  max-width:400px;
  margin:0 auto;
+ color:white;
 }
 input,textarea,button{
- width:100%
+ width:100%;
   padding:10px;
  font-size:1rem;
  border:1px solid #ccc;
